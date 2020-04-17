@@ -1,0 +1,766 @@
+/* animation  divDivOne -  desen krug gore*/
+@keyframes slide-right{
+    0%{
+        top: 5px;
+        left: 376px;
+        background-color: black;
+        width: 100px;
+        height: 100px;
+    }
+    20%{
+        top: 50px;
+        left: 376px;
+        background-color: cornflowerblue;
+        width: 100px;
+        height: 100px;
+    }
+    40%{
+        top: -35px;
+        left: 376px;
+        width: 90px;
+        height: 90px;        
+    }
+    60%{
+        top: -35px;
+        left: 440px;
+        background-color: darkolivegreen;
+        width: 60px;
+        height: 60px;
+       
+    }
+    80%{
+        top: -250px;
+        left: 500px;
+        width: 40px;
+        height: 40px;
+    }
+    100%{
+        top: -200px;
+        left: 500px;
+        background-color: greenyellow;
+        width: 0px;
+        height: 0px;
+        display: none;
+    }
+}
+
+/* animation  divDivTwo -  lev krug gore*/
+@keyframes slide-left{
+    0%{
+        top: 5px;
+        left: 10px;
+        background-color: black;
+        width: 100px;
+        height: 100px;
+    }
+    20%{
+        top: 5px;
+        left: 40px;
+        background-color: rgb(87, 18, 128);
+        width: 100px;
+        height: 100px;
+    }
+    40%{
+        top: -55px;
+        left: -40px;
+        background-color: rgb(48, 11, 70);
+        width: 90px;
+        height: 20px;
+    }
+    60%{
+        top: -65px;
+        left: -100px;
+        background-color: rgb(193, 152, 212);
+        width: 20px;
+        height: 80px;
+    }
+    80%{
+        top: -65px;
+        left: -105px;
+        width: 60px;
+        height: 40px;
+        background-color: rgb(152, 212, 212);
+    }
+    100%{
+        top: -90px;
+        left: -200px;
+        background-color: rgb(255, 255, 255);
+        width: 0px;
+        height: 0px;
+    }
+}
+
+/* animation  divDivThree -  div pozadina prasanje kocka sredina gore*/
+@keyframes slide-reverse{
+    0%{
+        top: 5px;      
+    }
+    15%{
+        top: -10px;
+    }
+
+    30%{
+        top: 5px;
+    }
+
+    100%{
+        top: -290px;
+    }
+}
+/* animation  divDivFour -  lev dole gore*/
+@keyframes slide-bottom{
+    0%{
+        top: 180px;
+        
+        background-color: black;
+        width: 100px;
+        height: 100px;
+    }
+    15%{
+        top: 150px;
+        
+        background-color: rgba(150, 16, 52,0.9);
+        width: 100px;
+        height: 100px;
+    }
+    /* 40%{
+        top: 250px;
+        
+        background-color: rgba(150, 16, 52,0.9);
+        width: 100px;
+        height: 100px;
+    }
+    75%{
+        top: 280px;
+        
+        background-color: rgba(150, 16, 52,0.9);
+        width: 100px;
+        height: 100px;
+    } */
+    
+    100%{
+        top: 480px;
+        
+        background-color: rgba(0, 216, 152,0);
+        width: 0px;
+        height: 0px;
+    }
+}
+
+/* animation  divDivSix -  desen krug dole*/
+@keyframes slide-bottom-left{
+    0%{
+        width: 150px;
+        height: 150px;
+        top: 180px;
+        left: 10px;       
+        background-color: black;
+       
+    }
+    25%{
+        top: 100px;
+        left: 40px;
+        background-color: rgba(150, 106, 52,0.9);
+        width: 200px;
+        height: 100px;
+    }
+    50%{       
+        top: 100px;
+        left: -50px;
+        background-color: rgba(159, 16, 252,0.9);
+        width: 120px;
+        height: 200px;
+    }
+    75%{
+        top: 200px;
+        left: -50px;
+        background-color: rgba(250, 0, 152,0.9);
+        width: 80px;
+        height: 10px;
+    }
+   
+    
+    100%{
+        top: 200px;
+        left: -250px;
+        background-color: rgba(34, 116, 0,0);
+        width: 0px;
+        height: 0px;
+    }
+}
+/* animation  divDivFive -  kocka button dole*/
+@keyframes slide-none{
+    0%{
+        width: 550px;
+        height: 400px;
+        background-color: rgba(0, 0, 0, 1);      
+        
+       
+    }
+    25%{    
+        background-color: rgba(0, 0, 0, 1);   
+        width: 550px;
+        height: 400px;
+        
+    }
+    50%{             
+        width: 400px;
+        height: 400px;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    75%{
+        width: 300px;
+        height: 400px;    
+                 
+    }
+   
+    
+    100%{       
+        background-color: rgba(34, 116, 0, 0.2);
+        width: 0px;
+        height: 0px;
+        display: block;
+        border: none;
+    }
+}
+
+
+* {
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    background: -webkit-gradient(linear, left top,
+        left bottom, from(#beeae9), to(#118a86));
+    color:#7c4d50;
+    text-shadow: 1px 1px #fe4902, 
+                2px 2px #fe4902, 
+                3px 3px #000000, 
+                4px 4px #000000, 
+                5px 5px #000000, 
+                6px 6px #fe4902;
+    letter-spacing: 12px;
+}
+
+/* First div background*/
+#firstDiv{
+    width: 50em;
+    height: 35em;
+    margin: auto;
+    padding: auto;
+    border: 1px solid black;
+    background-color: cornflowerblue;
+    position: relative;
+}
+
+/* second div background - odgovorite */
+#secondDiv{
+    position: absolute;
+    width: 550px;
+    height: 400px;
+    border: 2px solid black;
+    border-radius: 100px;
+    background-color: blanchedalmond;
+    left: 125px;
+    top: 80px;
+    text-align: center;
+    
+}
+#svg{
+    position: absolute;
+    
+    left: 50px;
+    top:122px;
+}
+#svgOne{
+    position: absolute;
+    
+    left: 50px;
+    top:187px;
+}
+#svgTwo{
+    position: absolute;
+    
+    left: 50px;
+    top:182px;
+}
+/* First paragraph */
+.questOne{
+    font-size: 17px;
+    font-weight: bold;
+    
+    
+}
+/* ordered lists - odgovori */
+li{
+    padding: 10px;
+    margin: 10px;
+    border: 2px  solid blue;
+    border-bottom: 1px dotted;
+    
+    background-color: chartreuse;
+    border-top-right-radius: 600px;
+    border-right: 14px;
+    width: 460px;
+    height: 55px;
+    font-size: 18px;
+    cursor: help;
+}
+/* radio buttons */
+input[type=radio]{
+    border: 10px;
+    width: 40px;
+    height: 17px;
+    left: -200px;
+    cursor: help;
+}
+/* radio btn na tret odgovor (poradi pozicija)*/
+#tom{
+    position: absolute;
+    left: 205px;
+    cursor: help;
+}
+/* Answer  btn */
+#btnOne{
+    background-color: rgb(92, 209, 224);
+    width: 180px;
+    height: 30px;
+    border: 3px dotted rgb(0, 0, 0);
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 10px;
+    background-image: radial-gradient( rgb(92, 209, 224),yellow,rgb(0, 0, 0));   
+    cursor: pointer;
+}
+#btnOne:focus{
+    outline: none;
+}
+input[value="ОДГОВОР!!!"]{      
+    font-size: 14px;
+    color: rgb(140, 235, 31);
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    text-overflow: ellipsis;
+    letter-spacing: 3px;
+    text-shadow:  2px 2px 2px rgb(255, 0, 0);   
+}
+/* Thrirth Div - Pocetna crna pozadina*/
+#thirthDiv{
+    position: absolute;
+    width: 550px;
+    height: 400px;
+    border: 20px double rgb(105, 105, 105);
+    border-radius: 60px;
+    background-color: rgb(0, 0, 0);
+    left: 125px;
+    top: 80px;
+}
+.animThirthDiv{
+    animation-name: slide-none;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+/* desen krug gore*/
+#divDivOne{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    border: 0px solid rgb(243, 247, 6);
+    position: absolute;
+    top: 5px;
+    left: 376px;
+    border-radius: 250px;
+    
+}
+.animOne{
+    animation-name: slide-right;
+    animation-duration: 2s;
+    /* animation-direction: alternate-reverse; */
+    animation-fill-mode: forwards;
+}
+
+
+/* divDivTwo -  lev krug gore*/
+#divDivTwo{
+    position: absolute;
+    background-color: black;
+    width: 120px;
+    height: 120px;
+    border: 0px solid rgb(226, 241, 12);
+    top: 5px;
+    left: 10px;
+    border-radius: 250px;
+   
+}
+.animTwo{
+    animation-name: slide-left;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+
+/* divDivThree -  div pozadina prasanje kocka sredina gore*/
+#divDivThree{
+    background-color: black;
+    width: 220px;
+    height: 150px;
+    border: 1px solid rgb(247, 191, 6);
+    position: absolute;
+    left: 150px;
+    top: 5px;
+    text-align: center;
+    animation-name: slide-reverse;
+    animation-duration: 2s;
+    animation-direction: alternate-reverse;
+}
+
+/* divDivFour -  lev dole krug*/
+#divDivFour{
+    background-color: black;
+    width: 150px;
+    height: 150px;
+    border: 0px solid gold;
+    position: absolute;
+    top: 180px;
+    left: 350px;
+    border-radius: 250px;
+    
+}
+.animFour{
+    animation-name: slide-bottom;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+
+
+/* animation  divDivFive -  kocka button dole*/
+#divDivFive{
+    background-color: black;
+    width: 150px;
+    height: 150px;
+    border: 0px solid gold;
+    position: absolute;
+    top: 180px;
+    left: 180px;
+    border-radius: 250px;
+}
+
+/* animation  divDivSix -  desen krug dole*/ 
+#divDivSix{
+    background-color: black;
+    width: 150px;
+    height: 150px;
+    border: 0px solid gold;
+    position: absolute;
+    top: 180px;
+    left: 10px;
+    border-radius: 250px;
+    
+}
+.animSix{
+    animation-name: slide-bottom-left;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* Question paragraph */
+.overQuest{
+    font-size: 30px;
+    font-family: 'Miltonian Tattoo', cursive;
+    color: white;
+
+}/* Number one paragrapf */
+.noOne{
+    font-size: 24px;
+    font-family: 'Miltonian Tattoo', cursive;
+    color: white;
+}
+
+/* Question Button */
+#btn{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 22px;
+    left: 25px;
+    border: 4px rgb(218, 205, 243);
+    text-shadow: 0px 3px 1px #700202;
+    background: -webkit-gradient(linear, left top,
+        left bottom, from(#beeae9), to(#118a86));
+    
+    border-style: ridge;
+    font-size: 18px;
+    border-radius: 120px 80px;
+    cursor: pointer;
+}
+#btn:focus{
+    outline: none;
+}
+.boxOne{
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 0px solid black;
+    position: absolute;
+    
+    background-color: chartreuse;
+    top: 95px;
+    left: 400px;
+   
+    cursor: pointer;
+}
+
+.backOne{
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 3px solid black;
+    position: absolute;
+    transform: perspective(900px) rotateY(180deg);
+    backface-visibility: hidden;
+    transition: 0.7s linear;
+    background-color: rgb(252, 0, 0);       
+}
+.frontOne{
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 3px solid black;
+    position: absolute;
+    transition: 0.7s linear;
+    backface-visibility: hidden;
+    background-color: rgb(45, 210, 30);
+   
+}
+
+.boxTwo{
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 0px solid black;
+    position: absolute;
+    top: 160px;
+    left: 400px;
+    background-color: chartreuse;
+    
+    cursor: pointer;
+}
+
+.backTwo{
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 3px solid black;
+    position: absolute;
+    transform: perspective(900px) rotateY(180deg);
+    backface-visibility: hidden;
+    transition: 0.7s linear;
+    background-color: rgb(252, 0, 0);
+    
+}
+.frontTwo{
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 3px solid black;
+    position: absolute;
+    transition: 0.7s linear;
+    backface-visibility: hidden;
+    background-color: rgb(45, 210, 30);
+}
+
+.boxThree{
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 0px solid black;
+    position: absolute;
+    
+    background-color: chartreuse;
+    top: 225px;
+    left: 400px;
+    cursor: pointer;
+}
+
+.backThree{
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 3px solid black;
+    position: absolute;
+    transform: perspective(900px) rotateY(180deg);
+    backface-visibility: hidden;
+    transition: 0.7s linear;
+    background-color: rgb(252, 0, 0);
+}
+.frontThree{
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 3px solid black;
+    position: absolute;
+    transition: 0.7s linear;
+    backface-visibility: hidden;
+    background-color: rgb(45, 210, 30);
+}
+
+.boxFour{
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 0px solid black;
+    position: absolute;
+    
+    background-color: chartreuse;
+    
+    top: 290px;
+    left: 400px;
+    cursor: pointer;
+}
+
+.backFour{
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 3px solid black;
+    position: absolute;
+    transform: perspective(900px) rotateY(180deg);
+    backface-visibility: hidden;
+    transition: 0.7s linear;
+    background-color: cornflowerblue;
+}
+.frontFour{
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 3px solid black;
+    position: absolute;
+    transition: 0.7s linear;
+    backface-visibility: hidden;
+    background-color: rgb(45, 210, 30);
+}
+
+/* BUTTON'S NAPRED - NAZAD */
+#btnNazad{
+    bottom: 10px;
+    left: 30px;
+    position: absolute;
+    width: 200px;
+    height: 45px;
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: bolder;
+    font-variant-ligatures: historical-ligatures;
+    letter-spacing: 10px;
+    border-left: 14px thin black;
+    border-top: 8px double rgb(53, 6, 6);
+    border-right: 4px double  black;
+    border-bottom: 10px solid black;
+    box-shadow: -4px -3px 4px 5px rgba(20,0,0,0.95);
+    background-image: 
+    -webkit-radial-gradient(circle, white, black);
+    mask-border-repeat: repeat;
+    border-radius: 40px;
+    cursor: pointer;  
+}
+#btnNazad:focus{
+    outline: none;
+}
+.strelaLevo1{
+    bottom: -14px;
+    right: -5px;
+    position: absolute;
+    font-size: 36px;
+    transform: rotate(180deg);
+}
+.strelaLevo2{
+    bottom: -14px;
+    right: 150px;
+    position: absolute;
+    font-size: 36px;
+    transform: rotate(180deg);
+}
+#btnNapred{
+    bottom: 10px;
+    right: 30px;
+    width: 210px;
+    height: 45px;
+    font-size: 19px;
+    position: absolute;
+    /* font-style: oblique; */
+    font-weight: bolder;
+    font-variant-ligatures: historical-ligatures;
+    letter-spacing: 10px;
+    border-left: 14px thin black;
+    border-top: 8px double rgb(6, 11, 53);
+    border-right: 4px double  black;
+    border-bottom: 10px solid black;
+    box-shadow: 4px -3px 4px 5px rgba(8,24,16,1);
+    border-radius: 20px;
+    background-image: repeating-linear-gradient(190deg,red,rgb(255, 115, 0) 7%,yellow 10%);
+    mask-border-repeat: repeat;
+    cursor: pointer;
+    text-align: center;
+}
+#btnNapred:focus{
+    outline: none;
+}
+.strelaDesno1{
+    bottom: -8px;
+    left: -2px;
+    position: absolute;
+    font-size: 34px;
+    
+}
+.strelaDesno2{
+    bottom: -8px;
+    right: -9px;
+    position: absolute;
+    font-size: 36px;
+    color: rgb(0, 0, 0);
+}
+.errorMessageOne{
+    position: absolute;
+    top: 55px;
+    left: 40px;
+    font-size: 12px;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    background-color: rgb(201, 201, 201);
+}
+#divPoints{
+    width: 125px;
+    height: 90px;
+    left: 1px;
+    top: 1px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    /* border: 10px  5px solid blueviolet; */
+    border-bottom: 10px solid blue;
+    border-top: 10px solid blue;
+    border-left: 5px double black;
+    border-right: 5px double black;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+.points{
+    left: 10px;
+    top: -24px;
+    position: absolute;
+    
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    font-family: 'Gabriela', serif;
+}
+.pointsNum{
+    position: absolute;
+    text-align: center;
+    left: 20px;
+    top: -10px;
+    font-size: 39px;
+    font-weight: bolder;
+    font-family: 'Gabriela', serif;
+}

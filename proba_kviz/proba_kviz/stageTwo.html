@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./css/stageTwo.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Gabriela&display=swap" rel="stylesheet">
+    <script src="./jquery/jquery-3.4.1.js"></script>
+</head>
+<body>
+    
+    <!-- DEL SO PRASANJA-->
+
+    <div id="firstDiv">
+
+        <h1>LEVEL: 1 - 2 :STAGE</h1>
+        <div id="secondDiv">
+            <!-- SVG -->
+            <svg height="50" width="180" id="svg">
+                <defs>
+                  <radialGradient id="grad1"cx="50%" cy="50%" r="50%" fx="60%" fy="40%">
+                    
+                    <stop offset="0%" style="stop-color:rgb(255, 217, 0);
+                    stop-opacity:0.8" />
+                    <stop offset="100%" style="stop-color:rgb(0,0,255);stop-opacity:1" />
+                  </radialGradient>
+                </defs>
+                <ellipse cx="25" cy="30" rx="155" ry="17" fill="url(#grad1)" />
+            </svg>
+
+            <svg height="50" width="200" id="svgOne">
+                <defs>
+                  <radialGradient id="grad1"cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+                    
+                    <stop offset="0%" style="stop-color:rgb(255,255,255);
+                    stop-opacity:0" />
+                    <stop offset="100%" style="stop-color:rgb(0,0,255);stop-opacity:1" />
+                  </radialGradient>
+                </defs>
+                <ellipse cx="25" cy="30" rx="155" ry="17" fill="url(#grad1)" />
+            </svg>
+            <svg height="120" width="200" id="svgTwo">
+                <defs>
+                  <radialGradient id="grad1"cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+                    
+                    <stop offset="0%" style="stop-color:rgb(255,255,255);
+                    stop-opacity:0" />
+                    <stop offset="100%" style="stop-color:rgb(0,0,255);stop-opacity:1" />
+                  </radialGradient>
+                </defs>
+                <ellipse cx="25" cy="100" rx="155" ry="17" fill="url(#grad1)" />
+            <!-- FORM FOR RADIO BUTTONS AND BUTTON-->
+            <form method="POST" action="">
+                <p class="questOne">2. -  Како се викале родителите на браќата<br /> "Кирил и Методиј"?</p>
+                <hr />                
+                <ol>
+                    <li>
+                        
+                        <input type="radio" id="slavko" name="question" value="slavko" />
+                        <label for="slavko"> Мирко и Славко </label>
+                    </li>
+                    <li>
+                        <input type="radio" id="tigar" name="question" value="tigar" />
+                        <label for="tigar"> Тигар и Перса </label>
+                    </li>
+                    <li>
+                        <input type="radio" id="tom" name="question" value="tom" />
+                        <label for="tom" id="toms"> Том и Џери</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="lav" name="question" value="lav" />
+                        <label for="lav"> Лав и Марија </label>
+                    </li>
+                </ol>
+                <input type="button" id="btnOne" value="ОДГОВОР!!!">
+            </form>
+        </svg>
+        </div>
+
+        <!-- Black Background -->
+        <div id="thirthDiv">
+            <!-- desen krug gore -->
+            <div id="divDivOne">
+                
+
+            </div>
+
+            <!-- lev krug gore -->
+            <div id="divDivTwo">
+
+                
+                
+            </div>
+
+            <!-- div pozadina prasanje kocka sredina gore -->
+            <div id="divDivThree">
+
+                <p class="overQuest">П Р А Ш А Њ Е </p>
+                               
+                <p class="noOne">бр.2</p>
+            </div>
+         
+            <div id="divDivFour">
+                               
+            </div>
+
+            <div id="divDivFive">
+                <form method="GET" action="">
+                    <input type="button" id="btn" value="CLICK ME!!!" onclick="doAnimation()" />
+                </form>
+            </div>
+            
+            <div id="divDivSix">
+                               
+            </div>
+
+        </div>
+        <form method="POST" action="">
+            <!-- <input type="button" id="btnNazad" value="НАПРЕД" onclick="doAnimation()" />
+            <input type="button" id="btnNapred" value="НАЗАД" onclick="doAnimation()" /> -->
+            
+            <button type="button" id="btnNapred"> <span class="strelaDesno1">&#10159;</span>
+                НАПРЕД <span class="strelaDesno2">&#10159;</span></button>
+            
+            <button type="button" id="btnNazad"><span class="strelaLevo1">&#10149;</span>  НАЗАД 
+                <span class="strelaLevo2">&#10149;</span> </button>
+                
+                
+        </form>
+
+        <div id="divPoints">
+            <p class="points">ПОЕНИ</p>
+            <p class="pointsNum">- 0 -</p>
+        </div>
+
+    </div>
+
+    <script src="./js_script/stageTwo.js"></script>
+</body>
+</html>
