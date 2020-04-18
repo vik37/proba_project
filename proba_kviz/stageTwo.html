@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./css/stageTwo.css" />
     <link href="https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Gabriela&display=swap" rel="stylesheet">
     <script src="./jquery/jquery-3.4.1.js"></script>
 </head>
 <body>
-    
+<div id="background">
     <!-- DEL SO PRASANJA-->
 
     <div id="firstDiv">
-        
-        <h1>LEVEL: 1 - 1 :STAGE</h1>
+
+        <h1>LEVEL: 1 - 2 :STAGE</h1>
         <div id="secondDiv">
             <!-- SVG -->
             <svg height="50" width="180" id="svg">
@@ -53,25 +53,25 @@
                 <ellipse cx="25" cy="100" rx="155" ry="17" fill="url(#grad1)" />
             <!-- FORM FOR RADIO BUTTONS AND BUTTON-->
             <form method="POST" action="">
-                <p class="questOne">1. -  Кој ја напишал поемата "СЕРДАРОТ"?</p>
+                <p class="questOne">2. -  Како се викале родителите на браќата<br /> "Кирил и Методиј"?</p>
                 <hr />                
                 <ol>
                     <li>
                         
                         <input type="radio" id="slavko" name="question" value="slavko" />
-                        <label for="slavko"> Славко Јаневски </label>
+                        <label for="slavko"> Мирко и Славко </label>
                     </li>
                     <li>
-                        <input type="radio" id="grigor" name="question" value="grigor" />
-                        <label for="grigor"> Григор Прличев </label>
+                        <input type="radio" id="tigar" name="question" value="tigar" />
+                        <label for="tigar"> Тигар и Перса </label>
                     </li>
                     <li>
                         <input type="radio" id="tom" name="question" value="tom" />
-                        <label for="tom" id="toms"> Том Соер </label>
+                        <label for="tom" id="toms"> Том и Џери</label>
                     </li>
                     <li>
-                        <input type="radio" id="ibe" name="question" value="ibe" />
-                        <label for="ibe"> Ибе Паликуќа </label>
+                        <input type="radio" id="lav" name="question" value="lav" />
+                        <label for="lav"> Лав и Марија </label>
                     </li>
                 </ol>
                 <input type="button" id="btnOne" value="ОДГОВОР!!!">
@@ -99,7 +99,7 @@
 
                 <p class="overQuest">П Р А Ш А Њ Е </p>
                                
-                <p class="noOne">бр.1</p>
+                <p class="noOne">бр.2</p>
             </div>
          
             <div id="divDivFour">
@@ -136,7 +136,7 @@
         </div>
 
     </div>
-
-    <script src="./js_script/script.js"></script>
+</div>
+    <script src="./js_script/stageTwo.js"></script>
 </body>
 </html>
